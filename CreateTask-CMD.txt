@@ -1,0 +1,1 @@
+SCHTASKS /Create /SC DAILY /TN "killAndStartSetex" /TR d:\DataToSqlServer\killAndStart.bat /ST 02:00
